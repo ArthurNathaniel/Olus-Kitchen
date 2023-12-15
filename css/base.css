@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #f3f6f0;
+
+}
+
+.login-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+    margin-block: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.w3-bar-item {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+.w3-black {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 10px;
+
+}
+
+.forms-all {
+    padding: 0 10%;
+
+}
+
+.forms-all h1 {
+    text-align: center;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    margin-block: 25px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.forms input {
+    width: 100%;
+    height: 50px;
+    padding-left: 2%;
+}
+
+.forms input:focus {
+    outline: none;
+}
+
+.forms button {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.login-forms {
+    background-color: #fff;
+    width: 100%;
+}
+
+.logout{
+    position: absolute;
+    bottom: 20px;
+        padding-left: 10px;
+}
+
+.logout button{
+    padding: 15px 45px;
+    background-color: #000;
+    border: none;
+}
+
+.logout button a{
+    color: #fff;
+}
+.w3-sidebar{
+    padding-left: 10px;
+    background-color: #fff;
+}
+.nav-logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.food-head{
+    padding: 0 10%;
+}
+
+.food-head p{
+    font-size: 40px;
+    margin-block: 50px;
+    text-align: center;
+}
+
+.food-head sub{
+    display: flex;
+    background-color: #000;
+    height: 5px;
+   
+}
+
+.food-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 5%;
+}
+.food-card{
+    background-color: #fff;
+    border-radius: 30px;
+ margin-bottom: 50px;
+    width: 95%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.food-image{
+    height: 300px;
+    border-bottom: 2px solid;
+}
+.food-info{
+    padding: 0 5%;
+    padding-block: 45px;
+    text-align: center;
+}
